@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #fff;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 25px;
+        font-size: 18px;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        width: 100%;
+        color: #000;
+    }
+
+    .table-wrapper {
+        width: 95%;
+        max-width: 1100px;
+        overflow-x: auto;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        font-family: Arial, sans-serif;
+        font-size: 12px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+
+    th {
+        background-color: #cee7f0;
+        color: #333;
+        padding: 12px;
+        text-align: center;
+        border: 2px solid #0066cc;
+        font-weight: 900;
+        font-size: 11px;
+    }
+
+    td {
+        padding: 10px 12px;
+        border: 2px solid #0099ff;
+        text-align: left;
+    }
+
+    td:first-child {
+        text-align: center;
+        width: 5%;
+        font-weight: 500;
+    }
+
+    td:nth-child(2) {
+        text-align: left;
+        min-width: 250px;
+    }
+
+    td:nth-child(3) {
+        text-align: center;
+        width: 12%;
+    }
+
+    td:nth-child(4) {
+        text-align: center;
+        width: 8%;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    tr:hover {
+        background-color: #efefef;
+    }
+
+    .cv-icon {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .cv-link {
+        color: #0066cc;
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 600;
+        transition: color 0.3s ease, transform 0.2s ease;
+        display: inline-block;
+    }
+
+    .cv-link:hover {
+        color: #0052a3;
+        transform: scale(1.2);
+    }
+
+    p {
+        text-align: center;
+        font-size: 11px;
+        color: #666;
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    .banner {
+        width: 100vw;
+        margin-left: calc(-50vw + 50%);
+        margin-bottom: 30px;
+        text-align: center;
+        padding: 15px;
+        border-radius: 0;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    .banner img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        max-height: 300px;
+    }
+</style>
+</head>
+<body>
+
+<div class="banner">
+    <img src="banner.png" alt="Academia Peruana de Derecho">
+</div>
+
+<h2>Nómina de Adjudicadores en Materia de Contrataciones Públicas</h2>
+
+<div class="table-wrapper">
+<table>
+    <thead>
+        <tr>
+            <th>No.</th>
+            <th>APELLIDOS Y NOMBRES</th>
+            <th>PROFESIÓN</th>
+            <th style="text-align: center;">CV</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td>1</td><td>CALDAS BAZAURI, ALFONSO SANTIAGO</td><td>INGENIERO</td><td><a href="cvs/1.pdf" class="cv-link" target="_blank">👁</a></td></tr>
+        <tr><td>2</td><td>DELGADO ZURITA, WILLIAM</td><td>INGENIERO</td><td><a href="cvs/2.pdf" class="cv-link" target="_blank">👁</a></td></tr>
+        <tr><td>3</td><td>ESPINOZA LA TORRE, LUIS DEMETRIO</td><td>INGENIERO</td><td><a href="cvs/3.pdf" class="cv-link" target="_blank">👁</a></td></tr>
+        <tr><td>4</td><td>FLORES AGUILAR, LUIS MIGUEL</td><td>INGENIERO</td><td><a href="cvs/4.pdf" class="cv-link" target="_blank">👁</a></td></tr>
+        <tr><td>5</td><td>FUENTES QUIÑONEZ, JULIO OSWALDO</td><td>INGENIERO</td><td><a href="cvs/5.pdf" class="cv-link" target="_blank">👁</a></td></tr>
+        <tr><td>6</td><td>GARCIA URRUTIA OLAVARRIA, ROQUE JESUS</td><td>INGENIERO</td><td><a href="cvs/6.pdf" class="cv-link" target="_blank">👁</a></td></tr>
+        <tr><td>7</td><td>QUILLOS RUIZ, SERAPIO AGAPITO</td><td>INGENIERO</td><td><a href="cvs/7.pdf" class="cv-link" target="_blank">👁</a></td></tr>
+        <tr><td>8</td><td>RAYNAGA SILVA, IGNACIO</td><td>INGENIERO</td><td><a href="cvs/8.pdf" class="cv-link" target="_blank">👁</a></td></tr>
+        <tr><td>9</td><td>URRUTIA TICONA, JOSE LUIS HUMBERTO</td><td>INGENIERO</td><td><a href="cvs/9.pdf" class="cv-link" target="_blank">👁</a></td></tr>
+        <tr><td>10</td><td>HERRERA BASURCO, OSCAR FERNANDO</td><td>LIC. RR.II.</td><td><a href="cvs/10.pdf" class="cv-link" target="_blank">👁</a></td></tr>
+        <tr><td>11</td><td>CUEVA VALENZUELA, TERESA FIBIANA</td><td>ABOGADA</td><td><a href="cvs/11.pdf" class="cv-link" target="_blank">👁</a></td></tr>
+        <tr><td>12</td><td>HURTADO AMBROSIO, MARIA ESTHER</td><td>ABOGADA</td><td><a href="cvs/12.pdf" class="cv-link" target="_blank">👁</a></td></tr>
+        <tr><td>13</td><td>ESCOBEDO ARRIOLA, ALEX EDSON</td><td>ABOGADO</td><td><a href="cvs/13.pdf" class="cv-link" target="_blank">👁</a></td></tr>
+        <tr><td>14</td><td>VEGA TIRADO, ASDEL</td><td>ABOGADO</td><td><a href="cvs/14.pdf" class="cv-link" target="_blank">👁</a></td></tr>
+        <tr><td>15</td><td>SEIJAS DIEPΡΑ, ASDRUBAL</td><td>ABOGADO</td><td><a href="cvs/15.pdf" class="cv-link" target="_blank">👁</a></td></tr>
+        <tr><td>16</td><td>DEXTRE CHAUCA, FRANCISCO CIRILO</td><td>ABOGADO</td><td><a href="cvs/16.pdf" class="cv-link" target="_blank">👁</a></td></tr>
+        <tr><td>17</td><td>SARAVIA CASANOVA, GUSTAVO ENRIQUE</td><td>ABOGADO</td><td><a href="cvs/17.pdf" class="cv-link" target="_blank">👁</a></td></tr>
+        <tr><td>18</td><td>NIQUEN QUESQUEN, JUAN MANUEL</td><td>ABOGADO</td><td><a href="cvs/18.pdf" class="cv-link" target="_blank">👁</a></td></tr>
+        <tr><td>19</td><td>HIJAR PIRCA, JUAN ROMAN</td><td>ABOGADO</td><td><a href="cvs/19.pdf" class="cv-link" target="_blank">👁</a></td></tr>
+        <tr><td>20</td><td>DEXTRE CUBAS, LUIGUI MARTIN</td><td>ABOGADO</td><td><a href="cvs/20.pdf" class="cv-link" target="_blank">👁</a></td></tr>
+        <tr><td>21</td><td>CHAMORRO VILLANUEVA, MOISES BENITO</td><td>ABOGADO</td><td><a href="cvs/21.pdf" class="cv-link" target="_blank">👁</a></td></tr>
+        <tr><td>22</td><td>MEDRANO CACERES, MANUEL BRIAN</td><td>ABOGADO</td><td><a href="cvs/22.pdf" class="cv-link" target="_blank">👁</a></td></tr>
+        <tr><td>23</td><td>MEZA MARTINEZ, SIBEL LUIS</td><td>ABOGADO</td><td><a href="cvs/23.pdf" class="cv-link" target="_blank">👁</a></td></tr>
+        <tr><td>24</td><td>RAFAELI PACHECO, ROCCIO DEL CARMEN</td><td>ABOGADA</td><td><a href="cvs/24.pdf" class="cv-link" target="_blank">👁</a></td></tr>
+        <tr><td>25</td><td>NEYRA ALVARADO, SAUL SEBASTIAN</td><td>ABOGADO</td><td><a href="cvs/25.pdf" class="cv-link" target="_blank">👁</a></td></tr>
+        <tr><td>26</td><td>QUINTANILLA LEGUA, WILLY ANTΟΝΙΟ</td><td>ABOGADO</td><td><a href="cvs/26.pdf" class="cv-link" target="_blank">👁</a></td></tr>
+        <tr><td>27</td><td>ESPINOZA SANCHEZ, RONALD</td><td>ABOGADO</td><td><a href="cvs/27.pdf" class="cv-link" target="_blank">👁</a></td></tr>
+        <tr><td>28</td><td>YNOÑAN MARCELO, WUILMER</td><td>ABOGADO</td><td><a href="cvs/28.pdf" class="cv-link" target="_blank">👁</a></td></tr>
+        <tr><td>29</td><td>CRISPIN ESPINOZA, WILMAN SERAPIO</td><td>ABOGADO</td><td><a href="cvs/29.pdf" class="cv-link" target="_blank">👁</a></td></tr>
+        <tr><td>30</td><td>FLORIAN CUZCANO, JUAN EDUARDO</td><td>ABOGADO</td><td><a href="cvs/30.pdf" class="cv-link" target="_blank">👁</a></td></tr>
+        <tr><td>31</td><td>BALLARTA SALDAÑA, ALEJANDRO</td><td>ABOGADO</td><td><a href="cvs/31.pdf" class="cv-link" target="_blank">👁</a></td></tr>
+        <tr><td>32</td><td>GONGORA HUAMAN, LUIS</td><td>ABOGADO</td><td><a href="cvs/32.pdf" class="cv-link" target="_blank">👁</a></td></tr>
+        <tr><td>33</td><td>PERICHE YARLEQUE, EDUARDO</td><td>ABOGADO</td><td><a href="cvs/33.pdf" class="cv-link" target="_blank">👁</a></td></tr>
+        <tr><td>34</td><td>GARRO ESPEJO, PEDRO SIGFREDO</td><td>ABOGADO</td><td><a href="cvs/34.pdf" class="cv-link" target="_blank">👁</a></td></tr>
+        <tr><td>35</td><td>SIHUAY SOTO, ROBERTO GODOFREDO</td><td>ABOGADO</td><td><a href="cvs/35.pdf" class="cv-link" target="_blank">👁</a></td></tr>
+        <tr><td>36</td><td>MEJIA FERNANDEZ, GUSTAVO ALFREDO</td><td>ABOGADO</td><td><a href="cvs/36.pdf" class="cv-link" target="_blank">👁</a></td></tr>
+        <tr><td>37</td><td>STEIN CARDENAS, CHRISTIAN</td><td>ABOGADO</td><td><a href="cvs/37.pdf" class="cv-link" target="_blank">👁</a></td></tr>
+        <tr><td>38</td><td>TORIBIO CANDELA, FREDY TEODORO</td><td>ABOGADO</td><td><a href="cvs/38.pdf" class="cv-link" target="_blank">👁</a></td></tr>
+        <tr><td>39</td><td>CUELLAR VILLARROEL, LUIS ALBERTO</td><td>ABOGADO</td><td><a href="cvs/39.pdf" class="cv-link" target="_blank">👁</a></td></tr>
+        <tr><td>40</td><td>PACHECO VALDERRAMA, PEDRO</td><td>ABOGADO</td><td><a href="cvs/40.pdf" class="cv-link" target="_blank">👁</a></td></tr>
+        <tr><td>41</td><td>GARGUREVICH OLIVA, ANTERO GRIMALDO</td><td>ABOGADO</td><td><a href="cvs/41.pdf" class="cv-link" target="_blank">👁</a></td></tr>
+    </tbody>
+</table>
+</div>
+
+<p><em>Fecha del documento original: 13-03-2022 [cite: 12]</em></p>
+
+</body>
+</html>
